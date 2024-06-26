@@ -10,3 +10,4 @@
 - ALSO use JS on the backend - via node
 
 ## node
+- JS interpreter on your computer
