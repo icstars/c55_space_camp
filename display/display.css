@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2 {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: darksalmon;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    /* this used to mean somethng, now it does not */
+    /* vertical-align: top; */
+}
+
+#container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: transparent;
+    display: block;
+}
+
+/* .relative {
+    position: relative;
+    background-color: darkseagreen;
+    top: -100px;
+    left: 50px;
+} */
+
+.absolute {
+    position: absolute;
+    background-color: darkorange;
+    top: 10px;
+    right: 10px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: purple;
+    bottom: 0px;
+}
+
+/* .sticky {
+    position: sticky;
+    background-color: aqua;
+    bottom: 0px;
+    top: 0px;
+} */

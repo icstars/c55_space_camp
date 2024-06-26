@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+}
+
+p {
+    color: rgb(255, 0, 80);
+}
+
+.special-text {
+    color: rgb(12, 255, 50);
+    background-color: gray;
+}
+
+.big-text {
+    font-size: 24px;
+}
