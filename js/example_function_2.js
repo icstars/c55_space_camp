@@ -5,7 +5,33 @@ function createFullName(first_name, middle_name, last_name) {
     var full_name = "";
 
     full_name += first_name;
-    // what can we do here now?
+
+    // if (middle_name == null) {
+
+    // }
+
+    // else {
+    //     full_name += ' ' + middle_name;
+    // }
+
+    // if (middle_name == null) {
+    //     // do nothing
+    // }
+    // else if (middle_name != '') {
+    //     full_name += ' ' + middle_name;
+    // }
+    
+    if (middle_name == null) {
+        // do nothing
+    }
+    else if (middle_name == '') {
+        // do nothing
+    }
+    else {
+        full_name += ' ' + middle_name;
+    }
+    
+
     full_name += ' ' + last_name;
 
     return full_name;
