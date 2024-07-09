@@ -8,6 +8,12 @@ async function getCurrentWeather() {
 
     var result = await response.json();
 
+    // then, modify the HTML with JS to display that information - DOM manipulation
+    // DOM - document object model
+    // follow these steps:
+    // a. find the element I need to modify
+    // b. change the X to a number
+
     var temperature_element = document.getElementById("temperature");
 
     var current_temperature = ((result.main.temp - 273.15) * 1.8) + 32;
@@ -17,11 +23,7 @@ async function getCurrentWeather() {
 
 var current_weather = getCurrentWeather();
 
-// then, modify the HTML with JS to display that information - DOM manipulation
-// DOM - document object model
-// follow these steps:
-// a. find the element I need to modify
-// b. change the X to a number
+
 
 
 
